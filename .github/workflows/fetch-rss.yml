@@ -2,7 +2,7 @@ name: Hämta pressmeddelanden
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # Var 5:e minut
+    - cron: '*/15 * * * *'  # Var 5:e minut
   workflow_dispatch:  # Möjliggör manuell körning
 
 jobs:
