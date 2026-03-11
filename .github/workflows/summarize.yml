@@ -2,7 +2,7 @@ name: Sammanfatta pressmeddelanden
 
 on:
   schedule:
-    - cron: '*/10 * * * *'  # Var 10:e minut
+    - cron: '*/30 * * * *'  # Var 10:e minut
   workflow_dispatch:  # Möjliggör manuell körning
 
 jobs:
