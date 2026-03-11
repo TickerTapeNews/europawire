@@ -2,7 +2,7 @@ name: Publicera RSS-feed
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Var 15:e minut
+    - cron: '*/30 * * * *'  # Var 15:e minut
   workflow_dispatch:  # Möjliggör manuell körning
 
 permissions:
