@@ -27,7 +27,7 @@ def get_unprocessed(conn, limit=50):
         SELECT id, title, content, description, link, source
         FROM press_releases
         WHERE processed = 0
-        ORDER BY fetched_at ASC
+        ORDER BY fetched_at DESC
         LIMIT ?
         """,
         (limit,),
