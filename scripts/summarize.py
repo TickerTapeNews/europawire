@@ -21,7 +21,7 @@ def get_db_connection():
     return conn
 
 
-def get_unprocessed(conn, limit=10):
+def get_unprocessed(conn, limit=50):
     result = conn.execute(
         """
         SELECT id, title, content, description, link, source
